@@ -1,0 +1,6 @@
+trabajar con git
+1- git init (para inicializar git, solo se hace una sola vez)
+2- git status (reporte de estado, si esta todo bien o mal)
+3-git add . (permite agregar todos los cambios que hayamos realizado)
+4-git commit -m (es para poder darle un mensaje git)
+5-git log (sirve para chekear que, quien y cuando se realizo una modificacion)
