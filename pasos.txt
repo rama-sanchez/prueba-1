@@ -4,3 +4,4 @@ trabajar con git
 3-git add . (permite agregar todos los cambios que hayamos realizado)
 4-git commit -m (es para poder darle un mensaje y confirme git)
 5-git log (sirve para chekear que, quien y cuando se realizo una modificacion)
+6-git push (sirve para darle ok a que sincronice visual con git)
