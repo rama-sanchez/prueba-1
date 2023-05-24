@@ -127,7 +127,7 @@ input {
     z-index: 9999;
   }
 
-  /*uso de blexbox*/
+  /*uso de flexbox*/
   footer{
     height: 100vh;
     display: flex;
