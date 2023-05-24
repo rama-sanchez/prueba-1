@@ -50,16 +50,35 @@ header {
   nav a:hover {
     color: rgb(10, 10, 10);  
   }
+.contactos{
+  margin: 4px;
+}
+.carrito{
+  margin: 4px;
+}
 
-
+/*imagen responsive*/
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
 
 /*estilos para section 2 */
   #section2 {
     background-color: #ffffff; 
     color: #3c3c3e;
     font-family: roboto, sans-serif;
-  
-}
+    }
+    .responsive-heading {
+      font-size: 20px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+      .responsive-heading {
+        font-size: 14px;
+      }
+    }
+
 /*estilos para formularios*/
 label { 
   display: block;
