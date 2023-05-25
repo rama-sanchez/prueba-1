@@ -75,8 +75,7 @@ header {
     
     @media only screen and (max-width: 600px) {
       .responsive-heading {
-        font-size: 12px;
-      }
+        font-size: 12px;}
     }
 
 /*estilos para formularios*/
@@ -131,24 +130,26 @@ input {
   footer{
     height: 100vh;
     display: flex;
-    flex-flow: wrap row;
+    flex-flow: row;
     justify-content: center;
     justify-content: space-evenly;
     list-style-type: none;
-  }
+    
+    }
   
 .CONTACTO{
   height: 200px;
-  width: 200PX;
- 
+  width: 200PX; 
 }
 .ATENCIÓN{
   height: 200px;
   width: 200PX;
+  
 }
-.SIGUENOS{
+ .SIGUENOS {
   height: 200px;
   width: 200PX;
+
 } 
 .full-width {
   background-color: #000000;
@@ -159,6 +160,12 @@ div a{
   text-decoration: none;
   color: #ffffff;
 }
+@media (max-width: 600px) {
+  li {
+  font-size: 10px;
+   }
+}
+
 
 /* uso de grid */
 .carousel {
