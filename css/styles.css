@@ -99,7 +99,11 @@ input {
     height: 340px;
     font-family: roboto, sans-serif;
     font-size: 15px;
+  
   }
+  
+  
+  
   div{
     list-style: none;
 
@@ -132,8 +136,8 @@ input {
     justify-content: center;
     justify-content: space-evenly;
     list-style-type: none;
-    
     }
+    
   
 .CONTACTO{
   height: 200px;
@@ -206,4 +210,19 @@ div a{
 }
 .git{
   background-color: aqua;
+}
+
+.carousel {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.slide {
+  flex: 0 0 20.00%;
+}
+
+@media (max-width: 480px) {
+  .slide {
+    flex: 0 0 70%;
+  }
 }
