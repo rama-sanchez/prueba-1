@@ -131,7 +131,6 @@ input {
   }
   
   
-  
   div{
     list-style: none;
 
@@ -190,13 +189,13 @@ div a{
   text-decoration: none;
   color: #ffffff;
 }
-@media (max-width: 480px) {
+@media (max-width: 640px) {
   li {
   font-size: 9px;
  
    }
 }
-@media (max-width: 480px) {
+@media (max-width: 640px) {
   div img {
     max-width: 100%;
     height: auto;
@@ -249,8 +248,8 @@ div a{
   flex: 0 0 20.00%;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 640px) {
   .slide {
-    flex: 0 0 70%;
+    flex: 0 0 60%;
   }
 }
