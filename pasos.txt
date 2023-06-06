@@ -5,3 +5,11 @@ trabajar con git
 4-git commit -m (es para poder darle un mensaje y confirme git)
 5-git log (sirve para chekear que, quien y cuando se realizo una modificacion)
 6-git push (sirve para darle ok a que sincronice visual con git)
+
+trabajar con SASS
+1- crear carpeta scss con un archivo dentro y llamarlo styles.scss
+2- hacer respaldo de css
+comandos
+1-para iniciar el node package manager: npm init
+2-instalar sass  npm install -g sass (si no funciona usar sudo npm...)
+3- sass --watch scss:css
