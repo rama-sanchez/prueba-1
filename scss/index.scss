@@ -1,6 +1,6 @@
 /* prueba de slide para index*/
 
-#carouselExampleIndicators {
+#carouselindex {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@
   
     @media (min-width: 640px) {
       max-width: 320px; /* Ajusta el valor según tus necesidades */
-      margin: 0 auto;
+      margin: 1 auto;
   
       .carousel-inner {
         .carousel-item {
@@ -50,7 +50,7 @@
 
 //fondo de main//
 main {
-    background-image:url(/img/imagenprincipalinicio.jpg);
+    background-image:url(../img/imagenprincipalinicio.jpg);
     background-size: cover;
     background-position: center;
 }
