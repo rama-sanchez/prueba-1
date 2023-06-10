@@ -14,7 +14,7 @@
 }
 @media (min-width: 640px) {
   #carouselindex {
-    max-width: 320px; /* Ajusta el valor según tus necesidades */
+    max-width: 320px;
     margin: 1 auto;
   }
   #carouselindex .carousel-inner .carousel-item img {
